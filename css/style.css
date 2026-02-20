@@ -425,6 +425,18 @@ a { color: inherit; text-decoration: none; }
   line-height: 1.6;
 }
 
+.featured-image {
+  margin: 32px 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.featured-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .post-hero {
   margin-bottom: 36px;
   border-radius: 12px;
