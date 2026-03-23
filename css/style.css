@@ -128,6 +128,17 @@ a { color: inherit; text-decoration: none; }
   box-shadow: 0 4px 12px rgba(0,119,181,0.3);
 }
 
+.hero-link.github {
+  background: #24292e;
+  color: white;
+}
+
+.hero-link.github:hover {
+  background: #1a1e22;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(36,41,46,0.3);
+}
+
 .hero-link.about {
   background: #f0f0f0;
   color: #1a1a2e;
